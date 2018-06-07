@@ -34,3 +34,8 @@ class Oriole(Bird1):
 summer = Chicken()
 print(summer.have_feather)
 print(summer.move(5,8))
+
+# text5.py 引入对象
+def import_to5():
+  print('用于引入文件')
+  
