@@ -12,6 +12,7 @@ print(summer.way_of_reproduction)
 class Bird1(object):
   have_feather = True
   way_of_reproduction = 'egg'
+  # def 定义方法
   # 方法的第一个参数必须是 self
   def move(self, dx, dy):
     position = [0,0]
