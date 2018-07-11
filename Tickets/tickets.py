@@ -20,7 +20,7 @@ from docopt import docopt
 import requests
 from prettytable import PrettyTable
 from colorama import Fore
-from stations import stations
+import stations
 
 
 def cli():
