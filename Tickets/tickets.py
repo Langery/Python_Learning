@@ -1,4 +1,3 @@
-# coding: utf-8
 """命令行火车票查看器
 
 Usage:
