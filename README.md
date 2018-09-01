@@ -2,6 +2,8 @@
 
 ### 参考链接：[Python快速教程](https://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
 
+**注：** 当前版本为3.0以上版本
+
 ### 启动
 ```
   python
