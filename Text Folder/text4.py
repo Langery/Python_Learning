@@ -1,4 +1,5 @@
 # 词典
+
 # 0、dictionary 使用键值对(key-value)存储
 # key不存在，dict就会报错
 dict = {'lilei': 90, 'lily': 100, 'sam': 57, 'tom': 901}
