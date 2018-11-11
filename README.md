@@ -20,3 +20,9 @@
   python file.py
 ```
 **注：** python文件名不能有空格
+
+### python清屏
+```
+  import os
+  i = os.system('clear')
+```
