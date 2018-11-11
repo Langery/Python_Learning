@@ -27,9 +27,9 @@ line3''')
 # 只要其中有一个为True，or 的结果为 True
 age = 20
 if age >= 18:
-    print ('adult')
+  print ('adult')
 else:
-    print ('teenager')
+  print ('teenager')
 
 # 空值 None
 # 不能理解为0，0是有意义的，而 None 是一个特殊的空值

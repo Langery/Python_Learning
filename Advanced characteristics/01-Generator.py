@@ -1,5 +1,6 @@
 # coding=UTF-8
 # 生成器
+# 斐波拉契数列
 def fib(max):
   n, a, b = 0, 0, 1
   while n < max:
