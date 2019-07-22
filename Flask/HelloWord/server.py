@@ -19,8 +19,7 @@ def hello_world():
   if r == None:
     return ''
   return r
-  '''
-  '''
+  
   r = request.args.getlist('p')
   return str(r)
   '''
