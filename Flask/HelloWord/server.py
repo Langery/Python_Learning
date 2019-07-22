@@ -26,6 +26,7 @@ def hello_world():
   '''
 
 # methods=['GET', 'POST']
+'''
 @app.route('/register', methods=['POST'])
 def register():
   print(request.headers)
@@ -36,7 +37,15 @@ def register():
   print(request.form.getlist('name'))
   print(request.form.get('nickname', default='little apple'))
   return 'welcome'
+'''
 
+@app.route('/add', methods=['POST'])
+def add():
+  print(request.headers)
+  print(type(request.json))
+  print(request.json)
+  result = request.json['a'] + request.json['b']
+  return str(result)
 
 if __name__ == '__main__':
   # debug=True
