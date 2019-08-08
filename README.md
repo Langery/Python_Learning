@@ -14,22 +14,22 @@
 
 ### 基本方法
 > 启动
-```
+``` node
   python
 ```
 > 退出
-```
+``` node
   python
   >>exit()
 ```
 > 指定python文件
-```
+``` node
   python file.py
 ```
 **注：** python文件名不能有空格
 
 > python清屏
-```
+``` node
   import os
   i = os.system('clear')
 ```
