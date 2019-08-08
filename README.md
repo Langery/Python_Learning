@@ -6,29 +6,29 @@
 2. Python测试内容
 
 ### 参考链接：
-~~1. [Python快速教程](https://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)~~
-~~2. [Python2.0](https://alleniverson.gitbooks.io/python2-course/)~~
+~~1. [Python快速教程](https://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)~~<br/>
+~~2. [Python2.0](https://alleniverson.gitbooks.io/python2-course/)~~<br/>
 3. [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
 
 **注：** 当前版本为3.0以上版本
 
 ### 基本方法
-#### 启动
+> 启动
 ```
   python
 ```
-#### 退出
+> 退出
 ```
   python
   >>exit()
 ```
-#### 指定python文件
+> 指定python文件
 ```
   python file.py
 ```
 **注：** python文件名不能有空格
 
-#### python清屏
+> python清屏
 ```
   import os
   i = os.system('clear')
