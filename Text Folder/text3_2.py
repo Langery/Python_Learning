@@ -16,7 +16,7 @@ LL.laugh_1st()
 class me(Jay):
   def __init__(self,show_laugh):
     print('That is me',show_laugh)
-summer = me('Lahy')
+summer = me('Langery')
 
 class Person(object):
   def __init__(self, input_gender):
